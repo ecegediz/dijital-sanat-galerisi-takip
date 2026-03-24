@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Sanat Galerisi Yönetim Sistemi Kullanım Kılavuzu
+
+Değerli Galeri Yöneticileri ve Sergi Koordinatörleri, sergi planlama, eser yönetimi, satış takibi ve sanatçı ilişkilerini kolaylaştırmak amacıyla tasarlanmıştır. Bu kılavuz, sistemin temel modüllerini ve efektif kullanımını açıklamaktadır.
+1. Giriş ve Hesap Yönetimi
+Giriş: Sisteme, size tanımlanan kullanıcı adı ve şifre ile güvenli giriş sayfasından () erişiniz.
+Şifre Sıfırlama: Şifrenizi unutmanız durumunda, giriş sayfasındaki "Şifremi Unuttum" bağlantısını kullanarak e-posta adresinize sıfırlama talimatı gönderiniz.
+Profil Güncelleme: Sağ üst köşedeki profil simgesinden galeri bilgilerinizi, yetkili kişileri ve iletişim bilgilerinizi güncelleyiniz.
+2. Eser ve Envanter Yönetimi (Katalog)
+Bu modül, sergiye dahil edilecek tüm eserlerin dijital kaydını tutar.
+Yeni Eser Ekleme: "Eserler" sekmesi altında "Yeni Ekle" butonunu kullanın.
+Zorunlu Alanlar: Eser Adı, Sanatçı ID'si, Eser ID (Sistem Otomatik Atar), Yıl, Teknik/Materyal (Örn: Dijital Baskı, Tuval Üzerine Yağlı Boya), Boyut (cm).
+Fiyatlandırma: Eserin net satış fiyatını (KDV Dahil/Hariç belirterek) girin. Limitli edisyonlar için toplam baskı sayısı ve mevcut kalan sayısı belirtilmelidir.
+Görsel Yükleme: Yüksek çözünürlüklü (en az [Örn: 300 dpi]) görseli uygun dosya formatında (Örn: JPEG, TIFF) yükleyin.
+Toplu Güncelleme: Birden fazla eserin fiyat, durum veya konum bilgisini toplu olarak güncelleyebilirsiniz.
+Envanter Durumu: Eserin durumunu (Galeri Envanterinde / Sergide / Satıldı / Rezerve Edildi) anlık olarak takip edin.
+3. Sanatçı Yönetimi
+Sanatçılarla ilgili tüm bilgileri tek bir yerde toplayın.
+Sanatçı Profili: Sanatçının biyografisi, iletişim bilgileri, web sitesi/sosyal medya linkleri ve galeri ile olan sözleşme detaylarını bu alana kaydedin.
+Eser Bağlantısı: Her sanatçı profili altında, o sanatçıya ait tüm envanter ve satılmış eserleri görüntüleyebilirsiniz.
+4. Sergi Planlama ve Yönetimi
+Fiziksel veya dijital sergilerinizin tüm detaylarını planlayın.
+Yeni Sergi Oluşturma: "Sergiler" modülünden yeni bir sergi başlatın.
+Detaylar: Sergi Adı, Başlangıç/Bitiş Tarihleri, Mekan Bilgisi, Küratör/Koordinatör atanır.
+Eser Atama: Envanterdeki eserleri sürükle-bırak yöntemiyle veya Eser ID ile sergiye atayın.
+Yerleşim Planı (Fiziksel Sergi İçin): Mekan krokisi üzerinde eserlerin tahmini yerleşimini (Duvar No, Metre Kare) belirleyerek lojistik planlamasına yardımcı olun.
+Dijital Sergi Linki: Sanal sergiler için otomatik olarak oluşturulan erişim linkini buradan paylaşabilirsiniz.
+5. Satış ve Komisyon Takibi
+Sergi süresince gerçekleşen satışları anlık olarak yönetin.
+Satış Kaydı: Bir eser satıldığında, eserin durumunu "Satıldı" olarak güncelleyin ve alıcı bilgilerini (Müşteri Modülünden) kaydedin.
+Komisyon Hesaplama: Sanatçı ile yapılan sözleşmeye göre belirlenen komisyon oranını (yüzde veya sabit ücret) girin. Sistem, galeri geliri ve sanatçı payını otomatik olarak hesaplar.
+Raporlama: Belirli bir sergiye ait toplam satış hacmini, en çok satan sanatçıları ve galeri net karını raporlayın.
+6. Destek ve Yardım
+Sistemle ilgili bir sorunla karşılaşırsanız veya yeni bir özellik talebiniz olursa:
+SSS: Sıkça Sorulan Sorular bölümümüzü kontrol edin.
+Canlı Destek: Çalışma saatleri içinde [Saatler] canlı destek ekibimize anlık olarak ulaşabilirsiniz.
+Talep Formu: Kritik olmayan hatalar veya özellik talepleri için Destek Talep Formu'nu doldurunuz. Talebiniz en geç 24 saat içinde yanıtlanacaktır.
+Başarılar Dileriz!</value>
+  </data>
+</root>
